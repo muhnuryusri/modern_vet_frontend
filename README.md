@@ -20,14 +20,6 @@ cd modern_vet_frontend
 flutter pub get
 ```
 
-## Run Project
-1. Connect a device or start an emulator/simulator.
-2. Run the app
-```bash
-flutter run
-```
-3. The app will launch on your device/emulator.
-
 ## Important Notes
 - Ensure the backend server is running before using the app.
 - Update the API base URL in the ``ApiClient`` (``api_client.dart``) to using your IP Address and port:
@@ -37,3 +29,11 @@ _dio.options.baseUrl = 'http://{your-api-address}:{port}/api';
 #for example
 _dio.options.baseUrl = 'http://192.168.56.1:3000/api';
 ```
+
+## Run Project
+1. Connect a device or start an emulator/simulator.
+2. Run the app
+```bash
+flutter run
+```
+3. The app will launch on your device/emulator.
